@@ -1,0 +1,65 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.fa-star {
+    font-size: 24px;
+    color: #ccc; /* Color de las estrellas vacías */
+  }
+  .checked {
+    color: gold; /* Color de las estrellas llenas */
+  }
+
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+/* to remove bullets from an unordered list */
+ul {
+    list-style: none;
+  }
+  
+  /* to remove bullets from an ordered list */
+  ol {
+    list-style:none; 
+  }
+
+  .offcanvas-body p {
+    color: black;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 80%; /* Posiciona justo debajo del botón */
+    left: 95%;
+    z-index: 1; /* Asegúrate de que esté por encima de otros elementos */
+  }
+  
